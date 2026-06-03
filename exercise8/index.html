@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Handling</title>
+</head>
+<body>
+
+    <h1>Community Events</h1>
+
+    <button onclick="register()">Register</button>
+
+    <br><br>
+
+    <select id="category" onchange="filterCategory()">
+        <option>Music</option>
+        <option>Technology</option>
+        <option>Art</option>
+    </select>
+
+    <br><br>
+
+    <input type="text" id="search" placeholder="Search Event">
+
+    <p id="output"></p>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

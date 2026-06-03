@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration Form</title>
+</head>
+<body>
+
+    <h1>Event Registration</h1>
+
+    <form id="registerForm">
+
+        Name:
+        <input type="text" name="name">
+        <span id="nameError"></span>
+        <br><br>
+
+        Email:
+        <input type="email" name="email">
+        <span id="emailError"></span>
+        <br><br>
+
+        Event:
+        <select name="event">
+            <option>Music Festival</option>
+            <option>Tech Workshop</option>
+            <option>Art Exhibition</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <p id="output"></p>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
